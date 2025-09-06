@@ -61,20 +61,27 @@ O projeto simula um fluxo de e-commerce e cobre as seguintes funcionalidades, co
 ## Exemplos de Uso (Casos de Teste)
 O arquivo public/index.php contém a simulação dos principais casos de uso para demonstrar o funcionamento do sistema. Ao rodar o projeto, você verá os seguintes cenários:
 
-### Adicionar um produto válido: 
+* **Adicionar um produto válido:** 
 O sistema adiciona 2 unidades da Camiseta ao carrinho.
 
-### Tentar adicionar mais do que o estoque:
+* **Tentar adicionar mais do que o estoque:**
 Uma tentativa de adicionar 10 unidades de Tênis (com estoque de 3) resulta em uma mensagem de erro.
 
-### Adicionar um segundo produto: 
+* **Adicionar um segundo produto:** 
 Uma Calça Jeans é adicionada ao carrinho, que agora contém dois itens.
 
-### Remover um produto: 
+* **Remover um produto:** 
 A Calça Jeans é removida do carrinho e a quantidade é restaurada no estoque.
 
-### Aplicar cupom de desconto: 
+* **Aplicar cupom de desconto:** 
 O valor total do carrinho restante (referente à Camiseta) é calculado com o desconto de 10% do cupom DESCONTO10.
 
-### Não aplicar cupom de desconto inválido: 
+* **Não aplicar cupom de desconto inválido:** 
 O valor total do carrinho restante (referente à Camiseta) é calculado sem o desconto devido cupom inválido.
+
+
+---
+### Discente
+| RA      | Nome                         |
+|---------|------------------------------|
+| 2001130 | Rayssa Gomides Marconato     |
